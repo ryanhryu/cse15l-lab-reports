@@ -5,7 +5,7 @@ In this specific blog post, we're gonna be looking at this simple file structure
 
 ![image](Screen Shot 2023-10-09 at 11.32.58 AM.png)
 ---
-cd (Change Directory) switches the current working direcetory to the given path.
+`cd (Change Directory)` switches the current working direcetory to the given path.
 1) When it is used with no arguments,
    - it defaults to the root directory, which in this case is */home*
      ![image](Screen Shot 2023-10-09 at 11.32.20 AM.png)
@@ -25,7 +25,7 @@ cd (Change Directory) switches the current working direcetory to the given path.
    - This is because cd only changes to 'directories', but the file.
    - Thus, it generates an error noting that af.txt is 'Not a directory'
 ---
-ls (List) lists the files and folders in the given path.
+`ls (List)` lists the files and folders in the given path.
 1) When it is used with no arguments,
    - it lists the items in the given path.
      ![iamge](Screen Shot 2023-10-09 at 12.06.38 PM.png)
@@ -49,7 +49,7 @@ ls (List) lists the files and folders in the given path.
    - I got this output because you cannot list the files inside a file. There is only one item to be displayed, which is the file itself.
    - It does not generate an error. However, it also does not list the files in the given file because it is impossible.
 ---  
-cat (Concatenate) prints the contents of one or more files provided by the paths
+`cat (Concatenate)` prints the contents of one or more files provided by the paths
 1) When it is used with no arguments,
    - It duplicates your input until you exit by pressing Ctrl + D.
      ![iamge](Screen Shot 2023-10-09 at 12.28.06 PM.png)
