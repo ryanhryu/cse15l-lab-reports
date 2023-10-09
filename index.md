@@ -1,10 +1,10 @@
 Ryan Ryu - CSE 15L Lab1 Report
-
+---
 Hi everyone, this is Ryan and today I'm going to be talking about a few commands to use in terminal: cd, ls, and cat.
 In this specific blog post, we're gonna be looking at this simple file structure
 
 ![image](Screen Shot 2023-10-09 at 11.32.58 AM.png)
-
+---
 cd (Change Directory) switches the current working direcetory to the given path.
 1) When it is used with no arguments,
    - it defaults to the root directory, which in this case is */home*
@@ -24,7 +24,7 @@ cd (Change Directory) switches the current working direcetory to the given path.
    - The working directory was /home/lecture1/messages. When it is redirected to a file using cd ./af.txt, it generated an error.
    - This is because cd only changes to 'directories', but the file.
    - Thus, it generates an error noting that af.txt is 'Not a directory'
-  
+---
 ls (List) lists the files and folders in the given path.
 1) When it is used with no arguments,
    - it lists the items in the given path.
@@ -32,7 +32,7 @@ ls (List) lists the files and folders in the given path.
    - In this case, it listed each text file in the */messages* directory.
    - The working directory was */home/lecture1/messages*, and it remained the same throughout the command. It only lists the files and folders in this directory and does not change the directory.
    - It does not generate an eroor.
-     
+   
 2) When it is used with a path to directory as an argument,
    - it shows the items in that directory.
    - ![iamge](Screen Shot 2023-10-09 at 12.10.36 PM.png)
@@ -48,7 +48,7 @@ ls (List) lists the files and folders in the given path.
    - The working directory stayed the same throughout the command.
    - I got this output because you cannot list the files inside a file. There is only one item to be displayed, which is the file itself.
    - It does not generate an error. However, it also does not list the files in the given file because it is impossible.
-  
+---  
 cat (Concatenate) prints the contents of one or more files provided by the paths
 1) When it is used with no arguments,
    - It duplicates your input until you exit by pressing Ctrl + D.
