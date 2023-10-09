@@ -1,6 +1,6 @@
 Ryan Ryu - CSE 15L Lab1 Report
 ---
-Hi everyone, this is Ryan and today I'm going to be talking about a few commands to use in terminal: cd, ls, and cat.
+Hi everyone, this is Ryan and today I'm going to be talking about a few commands to use in terminal: *cd*, *ls*, and *cat*.
 In this specific blog post, we're gonna be looking at this simple file structure
 
 ![image](Screen Shot 2023-10-09 at 11.32.58 AM.png)
