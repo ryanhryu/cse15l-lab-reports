@@ -8,14 +8,14 @@ In this specific blog post, we're gonna be looking at this simple file structure
 ---
 # `cd (Change Directory)` switches the current working direcetory to the given path.
 ## 1) When it is used with no arguments,
-   - it defaults to the root directory, which in this case is */home*.
+   - It defaults to the root directory, which in this case is */home*.
      ![image](Screen Shot 2023-10-09 at 11.32.20 AM.png)
    - As you can see in the picture, the working directory was */home/lecture1* when the command was run, but it defaulted to */home* when *cd* was run without arguments.
    - This is because when *cd* is used without arguments, it indicates to the terminal that it wants to redirect to home directory.
    - Using *cd* without arguments do not generate an error. 
   
 ## 2) When it is used with a path to directory as an argument,
-   - it redirects the working directory to the directory that is used as the arguement.
+   - It redirects the working directory to the directory that is used as the arguement.
      ![image](Screen Shot 2023-10-09 at 11.50.53 AM.png)
    - In this case, the working directory was /home. But when it is redirectred to the path *./lecture1*, it swtiches the working directory to */home/lecture1*
   
@@ -29,14 +29,14 @@ In this specific blog post, we're gonna be looking at this simple file structure
 ---
 # `ls (List)` lists the files and folders in the given path.
 ## 1) When it is used with no arguments,
-   - it lists the items in the given path.
+   - It lists the items in the given path.
      ![iamge](Screen Shot 2023-10-09 at 12.06.38 PM.png)
    - In this case, it listed each text file in the */messages* directory.
    - The working directory was */home/lecture1/messages*, and it remained the same throughout the command. It only lists the files and folders in this directory and does not change the directory.
    - It does not generate an error.
    
 ## 2) When it is used with a path to directory as an argument,
-   - it shows the items in that directory.
+   - It shows the items in that directory.
      ![iamge](Screen Shot 2023-10-09 at 12.10.36 PM.png)
    - In this image, it shows the items in the */home* directory.
    - the working directory was */home*, and it stays the same after the command.
