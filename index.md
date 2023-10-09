@@ -28,14 +28,14 @@ cd (Change Directory) switches the current working direcetory to the given path.
 ls (List) lists the files and folders in the given path.
 1) When it is used with no arguments,
    - it lists the items in the given path.
-   - ![iamge}()
+   - ![iamge}(Screen Shot 2023-10-09 at 12.06.38 PM.png)
    - In this case, it listed each text file in the */messages* directory.
    - The working directory was */home/lecture1/messages*, and it remained the same throughout the command. It only lists the files and folders in this directory and does not change the directory.
    - It does not generate an eroor.
      
 2) When it is used with a path to directory as an argument,
    - it shows the items in that directory.
-   - ![iamge}()
+   - ![iamge}(Screen Shot 2023-10-09 at 12.10.36 PM.png)
    - In this image, it shows the items in the */home* directory.
    - the working directory was */home*, and it stays the same after the command.
    - This output was generated because ls command lists the items in a given path.
@@ -43,7 +43,7 @@ ls (List) lists the files and folders in the given path.
    
 3) When it is used with a path to file as an argumemt,
    - It just restates the name of the directory of the file.
-   - ![iamge}()
+   - ![iamge}(Screen Shot 2023-10-09 at 12.18.03 PM.png)
    - In this image, it only shows the directory of the exact file that was used as the argument, which is */home/lecture1/messages/af.txt*
    - The working directory stayed the same throughout the command.
    - I got this output because you cannot list the files inside a file. There is only one item to be displayed, which is the file itself.
@@ -52,7 +52,7 @@ ls (List) lists the files and folders in the given path.
 cat (Concatenate) prints the contents of one or more files provided by the paths
 1) When it is used with no arguments,
    - It duplicates your input until you exit by pressing Ctrl + D.
-   - ![iamge}()
+   - ![iamge}(Screen Shot 2023-10-09 at 12.28.06 PM.png)
    - It duplicated 'it' and 'duplicates' which I typed in.
    - It does this because it is instructed to print out my input.
    - The working directory remains the same.
@@ -60,7 +60,7 @@ cat (Concatenate) prints the contents of one or more files provided by the paths
 
 2) When it is used with a path to directory as an argument,
    - It states whether the given path is a directory or not. 
-   - ![iamge}()
+   - ![iamge}(Screen Shot 2023-10-09 at 12.37.28 PM.png)
    - In this example, it says *./messages* is a directory.
    - The working directory still stays */home/lecture1*.
    - I got this output because for directories, it displays whether or not it is a directory.
@@ -68,7 +68,7 @@ cat (Concatenate) prints the contents of one or more files provided by the paths
    
 3) When it is used with a path to file as an argumemt,
    - It shows the contents of the given file used as arguements
-   - ![iamge}()
+   - ![iamge}(Screen Shot 2023-10-09 at 12.36.38 PM.png)
    - It printed out the contents of both *Hello.java* and *README*.
    - The working directory did not change.
    - Cat printed out the contents, because files are used as arguments.
