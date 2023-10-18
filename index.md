@@ -77,5 +77,5 @@ In this specific blog post, we're gonna be looking at this simple file structure
    - *cat* printed out the contents, because files are used as arguments.
    - It does not generate an error.
 
-### Disclaimer: When I tried this webpage as a PDF file, it does not show the box around the words when used with with `(backticks). However, when you visit the webpage [[ryanryucode](https://ryanryucode.github.io/cse15l-lab-reports/)](https://ryanryucode.github.io/cse15l-lab-reports/)https://ryanryucode.github.io/cse15l-lab-reports/ it shows the words with `(backticks) are shown in the box.
+### Disclaimer: When I tried to save this webpage as a PDF file, it does not show the box around the words when used with with `(backticks). However, when you visit the webpage [[ryanryucode](https://ryanryucode.github.io/cse15l-lab-reports/)](https://ryanryucode.github.io/cse15l-lab-reports/)https://ryanryucode.github.io/cse15l-lab-reports/ it shows the words with `(backticks) are shown in the box.
    
