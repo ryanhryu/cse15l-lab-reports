@@ -6,7 +6,7 @@ In this specific blog post, we're gonna be looking at this simple file structure
 ![image](Screen Shot 2023-10-09 at 11.32.58 AM.png)
 
 ---
-# `cd (Change Directory)` switches the current working direcetory to the given path.
+# `cd (Change Directory)` switches the current working directory to the given path.
 ## 1) When it is used with no arguments,
    - It defaults to the home directory, which in this case is */home*.
      ![image](Screen Shot 2023-10-09 at 11.32.20 AM.png)
