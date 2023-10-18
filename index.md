@@ -8,7 +8,7 @@ In this specific blog post, we're gonna be looking at this simple file structure
 ---
 # `cd (Change Directory)` switches the current working direcetory to the given path.
 ## 1) When it is used with no arguments,
-   - It defaults to the root directory, which in this case is */home*.
+   - It defaults to the home directory, which in this case is */home*.
      ![image](Screen Shot 2023-10-09 at 11.32.20 AM.png)
    - As you can see in the picture, the working directory was */home/lecture1* when the command was run, but it defaulted to */home* when *cd* was run without arguments.
    - This is because when *cd* is used without arguments, it indicates to the terminal that it wants to redirect to home directory.
@@ -44,21 +44,21 @@ In this specific blog post, we're gonna be looking at this simple file structure
    - It does not generate an error.
    
 ## 3) When it is used with a path to file as an argumemt,
-   - It just restates the name of the directory of the file.
+   - It just restates the path to the file.
      ![iamge](Screen Shot 2023-10-09 at 12.18.03 PM.png)
-   - In this image, it only shows the directory of the exact file that was used as the argument, which is */home/lecture1/messages/af.txt*.
+   - In this image, it only shows the path to the exact file that was used as the argument, which is */home/lecture1/messages/af.txt*.
    - The working directory stayed the same throughout the command.
    - I got this output because you cannot list the files inside a file. There is only one item to be displayed, which is the file itself.
-   - It does not generate an error. However, it also does not list the files in the given file because it is impossible.
+   - It does not generate an error. It lists out the file in the given path.
 
 ---  
 # `cat (Concatenate)` prints the contents of one or more files provided by the paths
 ## 1) When it is used with no arguments,
    - It duplicates your input until you exit by pressing Ctrl + D.
-     ![iamge](Screen Shot 2023-10-09 at 12.28.06 PM.png)
+     ![iamge](Screen Shot 2023-10-17 at 7.26.29 PM.png)
    - It duplicated 'it' and 'duplicates' which I typed in.
    - It does this because it is instructed to print out my input.
-   - The working directory remains the same.
+   - The working directory remains the same. (Working directory: */home*)
    - It does not generate an error.
 
 ## 2) When it is used with a path to directory as an argument,
@@ -67,13 +67,15 @@ In this specific blog post, we're gonna be looking at this simple file structure
    - In this example, it says *./messages* is a directory.
    - The working directory still stays */home/lecture1*.
    - I got this output because for directories, it displays whether or not it is a directory.
-   - It does not generate an error.
+   - It generates an error because `cat` cannot concatenate the contents of a directory.
    
 ## 3) When it is used with a path to file as an argumemt,
    - It shows the contents of the given file used as arguments.
-     ![iamge](Screen Shot 2023-10-09 at 12.36.38 PM.png)
+     ![iamge](Screen Shot 2023-10-17 at 7.35.56 PM.png)
    - It printed out the contents of both *Hello.java* and *README*.
-   - The working directory did not change.
+   - The working directory did not change. (Working directory: */home/lecture1*)
    - *cat* printed out the contents, because files are used as arguments.
    - It does not generate an error.
+
+### Disclaimer: When I tried this webpage as a PDF file, it does not show the box around the words when used with with `(backticks). However, when you visit the webpage [[ryanryucode](https://ryanryucode.github.io/cse15l-lab-reports/)](https://ryanryucode.github.io/cse15l-lab-reports/)https://ryanryucode.github.io/cse15l-lab-reports/ it shows the words with `(backticks) are shown in the box.
    
