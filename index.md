@@ -1,1 +1,1 @@
-[Lab 1 Report](https://website-name.com)
+[Lab 1 Report](lab1.md)
