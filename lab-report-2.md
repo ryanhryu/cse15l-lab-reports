@@ -57,8 +57,8 @@ class StringServer {
 - The relevant argument in this method is the url (URI object) and its value is `https://0-0-0-0-3009-os6po68qgh84pjj34bob1tlcls.us.edusercontent.com/add-message?s=How%20are%20you`
 - `ArrayList<String> message` was initially empty and later have "Hello".
 - The value of `int num` changed from 1 to 2.
-- `String output` was "1. Hello\n", and it changes to "1. Hello\n 2. How are you".
-- `message` field got "How are you" added, `num` field was incremented by 1, `output` field was updated with "1. Hello\n 2. How are you" after the request.
+- `String output` was "1. Hello\n", and it changes to "1. Hello\n 2. How are you\n".
+- `message` field got "How are you" added, `num` field was incremented by 1, `output` field was updated with "1. Hello\n 2. How are you\n" after the request.
 
 
 ## Part2
