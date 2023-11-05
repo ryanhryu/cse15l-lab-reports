@@ -42,11 +42,11 @@ class StringServer {
 }
 
 
-# Using '/add-message?s=Hello' as a query.
+# Using '/add-message?s=Hello as a query.
 ![image](Hello.png)
 - 
 
-# Using '/add-message?s=How%20are%20you' as a query.
+# Using '/add-message?s=How%20are%20you as a query.
 ![image](How are you.png)
 
 ## Part2
