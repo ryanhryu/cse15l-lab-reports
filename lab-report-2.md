@@ -44,10 +44,22 @@ class StringServer {
 
 ### Using `add-message?s=Hello` as a query.
 ![image](Hello.png)
-- 
+- For this query, `handleRequest` in the `Handler` class is called, which checks if the path is /add-message, decodes the message, adds it to the list, and returns the updated list of messages.
+- The relevant argument in this method is the url (URI object) and its value is `https://0-0-0-0-3009-os6po68qgh84pjj34bob1tlcls.us.edusercontent.com/add-message?s=Hello`
+- `ArrayList<String> message` was initially empty and later have "Hello".
+- The value of `int num` changed from 0 to 1.
+- `String output` was empty, and it changes to "1. Hello\n".
+- `message` field got "Hello" added, `num` field was incremented by 1, `output` field was updated with "1. Hello\n" after the request.
 
 ### Using `/add-message?s=How%20are%20you` as a query.
 ![image]([How%20are&20you.png](https://github.com/ryanryucode/cse15l-lab-reports/blob/main/How%20are%20you.png))
+- For this query, `handleRequest` in the `Handler` class is called, which checks if the path is /add-message, decodes the message, adds it to the list, and returns the updated list of messages.
+- The relevant argument in this method is the url (URI object) and its value is `https://0-0-0-0-3009-os6po68qgh84pjj34bob1tlcls.us.edusercontent.com/add-message?s=How%20are%20you`
+- `ArrayList<String> message` was initially empty and later have "Hello".
+- The value of `int num` changed from 1 to 2.
+- `String output` was "1. Hello\n", and it changes to "1. Hello\n 2. How are you".
+- `message` field got "How are you" added, `num` field was incremented by 1, `output` field was updated with "1. Hello\n 2. How are you" after the request.
+
 
 ## Part2
 
