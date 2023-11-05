@@ -1,5 +1,5 @@
-[Lab 1 Report](https://ryanryucode.github.io/cse15l-lab-reports/lab1.html)
+[Lab Report 1](https://ryanryucode.github.io/cse15l-lab-reports/lab-report-1.html)
 
-[Lab 2 Report](https://ryanryucode.github.io/cse15l-lab-reports/lab2.html)
+[Lab Report 2](https://ryanryucode.github.io/cse15l-lab-reports/lab-report-2.html)
 
-[Lab 3 Report](https://ryanryucode.github.io/cse15l-lab-reports/lab3.html)
+[Lab Report 3](https://ryanryucode.github.io/cse15l-lab-reports/lab-report-3.html)
