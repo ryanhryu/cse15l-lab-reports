@@ -47,7 +47,7 @@ class StringServer {
 - 
 
 ### Using `/add-message?s=How%20are%20you` as a query.
-![image](How are you.png)
+![image](How-are-you.png)
 
 ## Part2
 
