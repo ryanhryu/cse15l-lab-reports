@@ -62,6 +62,10 @@ class StringServer {
 
 
 ## Part2
+Both private key (`id_rsa`) and public key (`id_rsa.pub`) is located in */Users/ryanryu/.ssh* directory
+![image](dotssh.png)
+![image](publickey.png)
+
 
 
 ## Part 3
