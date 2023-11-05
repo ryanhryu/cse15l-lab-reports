@@ -1,6 +1,6 @@
 ## Part 1
 # StringServer.java
-'''
+
 import java.util.*;
 import java.io.IOException;
 import java.net.URI;
@@ -40,7 +40,7 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-'''
+
 
 # Using '/add-message?s=Hello' as a query.
 ![image](Hello.png)
