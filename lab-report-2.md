@@ -62,11 +62,14 @@ class StringServer {
 
 
 ## Part2
-Both private key (`id_rsa`) and public key (`id_rsa.pub`) is located in */Users/h4ryu/.ssh* directory
+### Both private key (`id_rsa`) and public key (`id_rsa.pub`) is located in */Users/h4ryu/.ssh* directory.
+
 ![image](privatekey.png)
+
 ![image](publickey.png)
 
-Below is the terminal interaction showing I logged into ieng6 without password
+### Below is the terminal interaction showing I logged into ieng6 without password.
+
 ![image](loginnopw.png)
 
 
