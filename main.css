@@ -1,16 +1,16 @@
 @import "variables";
 body {
-  color: $body-text-color;
+  color: $brown;
 }
 
 a {
-  color: $body-link-color;
+  color: $green;
 }
 
 .page-header {
-  color: $header-heading-color;
+  color: $blue;
   text-align: center;
-  background-color: $header-bg-color;
+  background-color: $gray;
 
 .main-content {
   h1,
