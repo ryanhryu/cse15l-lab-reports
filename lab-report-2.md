@@ -72,7 +72,7 @@ class StringServer {
 ### The path to the public key on `ieng6` is `/home/linux/ieng6/ca15lfa23/cs15lfa23oc/.ssh/authorized_keys`. 
 - `id_rsa.pub` on my local computer is copied into the `.ssh` directory in a file called `authorized_keys`.
   
-![image](authorizedkeys)
+![image](authorizedkeys.png)
 
 ### Below is the terminal interaction showing I logged into `ieng6` without password.
 
@@ -80,4 +80,4 @@ class StringServer {
 
 
 ## Part 3
-Before week 2, I did not even know what a server is. Now I learned how servers and clients are connected and I can do that on my terminal using commands. Also, being able to remotely sign in and control a computer distant from my location was interesting to learn. For week 3, I had a little bit of experience with VS code but never run a terminal on it, so that was new to me. Learning how to learn ssh-keygen was very new to me and I think it is going to be useful in the future.
+Before week 2, I did not even know what a server is. Now I have learned to compile and run servers using terminal commands. Also, being able to manipulate the NumberServer to StringServer reminded me of how to work with java classes. Most importantly, I learned how servers and clients are connected and I can log into a remote computer using `ssh` command. Being able to remotely sign in and control a computer distant from my location was interesting to learn. Using `ssh-keygen` command will let me save a lot of time from not having to type the password every time, which I think is going to be useful in the future for signing into remote computers. For week 3, I had a little bit of experience with VS code but never run a terminal on it. Now I know I can run the terminal on VS code, which provides me a better visual representation of the commands.
