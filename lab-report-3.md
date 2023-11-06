@@ -124,13 +124,12 @@ ryanryu@Air-Ryan technical % find . -name "1468-6708????.txt"
 
 ### `-ls` option
 - `find <path to directory> -name "<file/directory name>" -ls` gives a detailed information of the item of given type in the directory.
-  
 ```
 ryanryu@Air-Ryan technical % find . -name "ffm.txt" -ls 
 
 1388680       56 -rwxr-xr-x    1 ryanryu          staff               26946 Oct 31 16:15 ./government/Gen_Account_Office/ffm.txt
-
 ```
+
 
 
 - `find <path to directory> -type <type> -ls` gives a detailed listing of the item of given type in the directory.
@@ -148,7 +147,5 @@ ryanryu@Air-Ryan technical % find . -type d -ls
 1388902        0 drwxr-xr-x  254 ryanryu          staff                8128 Oct 31 16:15 ./plos
 1387772        0 drwxr-xr-x  839 ryanryu          staff               26848 Oct 31 16:15 ./biomed
 1387754        0 drwxr-xr-x   19 ryanryu          staff                 608 Oct 31 16:15 ./911report
-```
 
-## Disclaimer: When I tried to save this webpage as a PDF file, it did not show the box around the words when used with with ` (backticks). However, when you visit the webpage https://ryanryucode.github.io/cse15l-lab-reports/ it displays the words in boxes when used with backticks.
 
