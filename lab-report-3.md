@@ -124,6 +124,7 @@ ryanryu@Air-Ryan technical % find . -name "1468-6708????.txt"
 
 ### `-ls` option
 - `find <path to directory> -name "<file/directory name>" -ls` gives a detailed information of the item of given type in the directory.
+  
 ```
 ryanryu@Air-Ryan technical % find . -name "ffm.txt" -ls 
 
@@ -131,7 +132,9 @@ ryanryu@Air-Ryan technical % find . -name "ffm.txt" -ls
 
 ```
 
+
 - `find <path to directory> -type <type> -ls` gives a detailed listing of the item of given type in the directory.
+  
 ```
 ryanryu@Air-Ryan technical % find . -type d -ls
 1387753        0 drwxr-xr-x    7 ryanryu          staff                 224 Nov  5 22:35 .
