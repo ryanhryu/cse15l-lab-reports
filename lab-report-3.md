@@ -1,6 +1,6 @@
 ## Part 1
 I chose the bug in the `reverseInPlace` method in the `ArrayExamples` class.
-### Failure-inducing input in the new method `testReverseInPlaceTwo` in the `ArraryTests` class
+### Failure-inducing input in the new method `testReverseInPlaceTwo` in the `ArrayTests` class
 
 ```
 @Test
@@ -52,7 +52,7 @@ static void reverseInPlace(int[] arr) {
 - For the following examples, the working directory is `/Users/ryanryu/docsearch/technical`
   
 ### `-path` option
-- `find -path "*/<filename>` finds the specific file I am looking for.
+- `find -path "*/<filename>"` finds the specific file I am looking for.
 ```
 ryanryu@Air-Ryan technical % find . -path "*/chapter-9.txt"
 ./911report/chapter-9.txt
@@ -123,7 +123,7 @@ ryanryu@Air-Ryan technical % find . -name "1468-6708????.txt"
 ```
 
 ### `-ls` option
-- `find <path to directory> -name "<file/directory name> -ls` gives a detailed information of the item of given type in the directory.
+- `find <path to directory> -name "<file/directory name>" -ls` gives a detailed information of the item of given type in the directory.
 ```
 ryanryu@Air-Ryan technical % find . -name "ffm.txt" -ls 
 
