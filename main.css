@@ -10,7 +10,7 @@ a {
 .page-header {
   color: $blue;
   text-align: center;
-  background-color: $gray;
+  background-color: $#e0f7fa;
 
 .main-content {
   h1,
