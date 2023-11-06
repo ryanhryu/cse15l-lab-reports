@@ -22,7 +22,26 @@ public void testReverseInPlaceTwo() {
 	}
 ```
 ### When it was run with a JUnit test with the two inputs above, the following result was generated
-![image](SymptomJUnit.png)
+![image](JUnitFail.png)
 
+### The code for `reverseInPlace` method before fix
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+### The code for `reverseInplace` method after fix	
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i++) {
+        int temp = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = temp;
+    }
+}
+```
 
 ## Part 2
