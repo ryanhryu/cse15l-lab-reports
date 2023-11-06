@@ -147,4 +147,5 @@ ryanryu@Air-Ryan technical % find . -type d -ls
 1387754        0 drwxr-xr-x   19 ryanryu          staff                 608 Oct 31 16:15 ./911report
 ```
 
+## Disclaimer: When I tried to save this webpage as a PDF file, it did not show the box around the words when used with with ` (backticks). However, when you visit the webpage https://ryanryucode.github.io/cse15l-lab-reports/ it displays the words in boxes when used with backticks.
 
