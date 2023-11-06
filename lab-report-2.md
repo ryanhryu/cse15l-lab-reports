@@ -62,13 +62,19 @@ class StringServer {
 
 
 ## Part2
-### Both private key (`id_rsa`) and public key (`id_rsa.pub`) is located in */Users/h4ryu/.ssh* directory.
+### Both private key (`id_rsa`) and public key (`id_rsa.pub`) is located in */Users/h4ryu/.ssh* directory on my local computer.
 
 ![image](privatekey.png)
 
+### As it is shown in the image below, the path to the public key is */Users/h4ryu/.ssh/id_rsa.pub* on my local computer.
 ![image](publickey.png)
 
-### Below is the terminal interaction showing I logged into ieng6 without password.
+### The path to the public key on `ieng6` is `/home/linux/ieng6/ca15lfa23/cs15lfa23oc/.ssh/authorized_keys`. 
+- `id_rsa.pub` on my local computer is copied into the `.ssh` directory in a file called `authorized_keys`.
+  
+![image](authorizedkeys)
+
+### Below is the terminal interaction showing I logged into `ieng6` without password.
 
 ![image](loginnopw.png)
 
