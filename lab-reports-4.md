@@ -15,7 +15,7 @@ When run the test with `bash test.sh <enter>`, the test gave output of failures.
 ![image](test_failure.png)
 
 ## Step 7
-In order to modify the code in ListExamples.java, I typed `vim ListExamples.java` <enter>, pressed 43 <j>s, 11 <l>s, and 
+In order to modify the code in ListExamples.java, I typed `vim ListExamples.java` <enter>, pressed 43 <j> s, 11 <l> s, and 
 <i>, <2>, <ESC>, <l>, <x>, consecutively. To save and quit, I pressed <:wq>.
 ![image](index1to2.png)
 
