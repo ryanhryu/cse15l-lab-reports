@@ -15,7 +15,7 @@ To clone using ssh, I clicked on the green `code` button, copied the `ssh` key, 
 ## Step 6
 When run the test with `bash test.sh <enter>`, the test gave output of failures.
 
-![image](test failure.png)
+![image](test%20failure.png)
 
 ## Step 7
 In order to modify the code in ListExamples.java, I typed `vim ListExamples.java` <enter>, pressed 43 j's, 11 l's, and 
