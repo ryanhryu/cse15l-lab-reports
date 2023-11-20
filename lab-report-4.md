@@ -1,5 +1,5 @@
 ## Step 4
-To log into remote account, I typed `ssh cs15lfa23oc@ieng6.ucsd.edu <enter>`.
+To log into remote account, I typed `ssh cs15lfa23oc@ieng6.ucsd.edu <enter>`. Now I am logged into `ieng6`.
 
 ![image](login.png)
 
@@ -19,7 +19,7 @@ When run the test with `bash test.sh <enter>`, the test gave output of failures.
 
 ## Step 7
 In order to modify the code in ListExamples.java, I typed `vim ListExamples.java` <enter>, pressed 43 j's, 11 l's, and 
-i, 2, ESC< l, then x consecutively. To save and quit, I pressed <:wq>.
+i, 2, ESC, l, then x consecutively. To save and quit, I pressed <:wq>. This inserts 2 in front of 1 and then deletes 1, successfully replaying 1 with 2.
 
 ![image](index1to2.png)
 
