@@ -12,7 +12,7 @@ To clone using ssh, I clicked on the green `code` button and copied the `ssh` ke
 
 ![image](greenbutton.png)
 
-Then I typed `git clone` <command> <v> <enter>. This generated a command `git clone git@github.com:ryanryucode/lab7.git`. From this, I was able to clone it successfully into my remote account.
+Then I typed `git clone` `command key`, `v`, <enter>. This generated a command `git clone git@github.com:ryanryucode/lab7.git`. From this, I was able to clone it successfully into my remote account.
 
 ![image](sshclonelab7.png)
 
