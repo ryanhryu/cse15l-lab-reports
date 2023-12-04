@@ -1,5 +1,5 @@
 ## Step 4
-To log into remote account, I typed `ssh cs15lfa23oc@ieng6.ucsd.edu <enter>`. Now I am logged into `ieng6`.
+To log into remote account, I typed `ssh` then pressed the up arrow once. From the terminal history, my command was autofilled with `ssh cs15lfa23oc@ieng6.ucsd.edu`. Then I pressed <enter>. I could save a lot of key presses from using the up arrow than from typing `ssh cs15lfa23oc@ieng6.ucsd.edu <enter>`. Now I am logged into `ieng6`.
 
 ![image](login.png)
 
@@ -8,9 +8,13 @@ To `fork` the repository, I clicked on the `fork` button on the top right corner
 
 ![image](fork.png)
 
-To clone using ssh, I clicked on the green `code` button, copied the `ssh` key, and use `git clone` command to clone it into my remote account.
+To clone using ssh, I clicked on the green `code` button and copied the `ssh` key using the copy button next to the `ssh url`. 
 
-![image](gitclone2.png)
+![image](greenbutton.png)
+
+Then I typed `git clone` <command> <v> <enter>. This generated a command `git clone git@github.com:ryanryucode/lab7.git`. From this, I was able to clone it successfully into my remote account.
+
+![image](sshclonelab7.png)
 
 ## Step 6
 When run the test with `bash test.sh <enter>`, the test gave output of failures.
@@ -29,6 +33,6 @@ When I run the `bash test.sh` again, the test finally passed.
 ![image](passedtest.png)
 
 ## Step 9
-To update the github repository with the changes I made in the local repository, I used `git add ListExamples.java <enter>`, `git commit -m "<message>" <enter>`, and then `git push <enter>` to push changes.
+To update the github repository with the changes I made in the local repository, I used `git add ListExamples.java <enter>`, `git commit -m "third time" <enter>`, and then `git push <enter>` to push changes. I typed in the commands, instead of using copy and paste. 
 
 ![image](commit.png).
