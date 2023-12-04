@@ -33,6 +33,7 @@ When I fixed these bugs, the test could finally be passed.
 
 ## Information about the setting
 ### The file and directory structure.
+```
 -lab7
 -.gitignore
 -lib
@@ -41,6 +42,7 @@ When I fixed these bugs, the test could finally be passed.
 -ListExamples.java
 -ListExamplesTests.java
 -test.sh
+```
 
 The contents before and after fixing the bug was already demonstrated in earlier parts of this lab report.
 The changes I made were replacing `index1` with `index2`, and `result.add(0,s)` with `result.add(s)`, which are explained in Student's Post and Follow-up.
