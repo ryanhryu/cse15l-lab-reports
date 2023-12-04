@@ -20,18 +20,33 @@ Also, I noticed in your `filter` method in `ListExamples.java`, your code result
 
 Thank you for your response. I replaced `index1` with `index2` in the line 43 of the `ListExamples` because the rest of the while loop is associated with `list2`. This way, the while loop correctly checks if the index reached at the end of `list2`. The bug came from labelling the variable wrongly.
 
+![image](mergemethod.png)
+
 Also, regarding the `filter` method, I put `result.add(s)` instead of `result.add(0,s)`. This way, the string `s` is correctly appended at the end of the string `result`, not the beginning of it. The bug came from indicating a wrong index in the code.
+
+![image](filtermethod.png)
 
 When I fixed these bugs, the test could finally be passed.
 
 ![image](bashpassed.png)
 
-![image](dnjn.png)
+## Information about the setting
+### The file and directory structure.
+-lab7
+-.gitignore
+-lib
+ -hamcrest-core-1.3.jar
+ -junit-4.13.2.jar
+-ListExamples.java
+-ListExamplesTests.java
+-test.sh
 
-![image](.png)
+The contents before and after fixing the bug was already demonstrated in earlier parts of this lab report.
+The changes I made were replacing `index1` with `index2`, and `result.add(0,s)` with `result.add(s)`, which are explained in Student's Post and Follow-up.
 
-![image](dnjn.png)
+## 
 
-![image](listexamplesjava.png)
+
+
 
 
