@@ -5,3 +5,5 @@
 [Lab Report 3](https://ryanryucode.github.io/cse15l-lab-reports/lab-report-3.html)
 
 [Lab Report 4](https://ryanryucode.github.io/cse15l-lab-reports/lab-report-4.html)
+
+[Lab Report 5](https://ryanryucode.github.io/cse15l-lab-reports/lab-report-5.html)
