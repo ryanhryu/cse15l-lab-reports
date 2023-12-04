@@ -1,5 +1,5 @@
 ## Step 4
-To log into remote account, I typed `ssh` then pressed the up arrow once. From the terminal history, my command was autofilled with `ssh cs15lfa23oc@ieng6.ucsd.edu`. Then I pressed <enter>. I could save a lot of key presses from using the up arrow than from typing `ssh cs15lfa23oc@ieng6.ucsd.edu <enter>`. Now I am logged into `ieng6`.
+To log into remote account, I typed `ssh` then pressed the up arrow once. From the terminal history, my command was autofilled with `ssh cs15lfa23oc@ieng6.ucsd.edu`. Then I pressed `enter`. I could save a lot of key presses from using the up arrow than from typing `ssh cs15lfa23oc@ieng6.ucsd.edu <enter>`. Now I am logged into `ieng6`.
 
 ![image](login.png)
 
