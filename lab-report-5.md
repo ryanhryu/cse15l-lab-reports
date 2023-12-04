@@ -4,10 +4,21 @@ Hi, I was curious why I keep getting this error message. I tried testing the 'Li
 ![image](bashfail.png)
 
 
+![image](test2mergefail.png)
+
+![image](mergemethodfail.png)
+## TA's Response
+
+
+## Follow-up by studetn
+![image](bashpassed.png)
+
+![image](dnjn.png)
+
+![image](.png)
+
+![image](dnjn.png)
+
 ![image](listexamplesjava.png)
 
-![image](dnjn.png)
 
-![image](dnjn.png)
-
-![image](dnjn.png)
