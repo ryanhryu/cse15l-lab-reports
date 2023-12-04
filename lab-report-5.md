@@ -1,3 +1,4 @@
+# Part 1
 ## Student's Post
 Hi, I was curious why I keep getting this error message. I tried testing the `ListExamples.java` and `ListExamplesTests.java` file using `bash test.sh` command, but it keeps generating the `TestTimedOutException` error indicating the error occured at line 44 in the `merge` method of `ListExamples.java` and in the line 19 `testMerge2` method of `ListExamplesTests.java`. Could you help me fix these errors? I uploaded both the `merge` and `testMerge2` class. 
 
@@ -44,9 +45,9 @@ When I fixed these bugs, the test could finally be passed.
 The contents before and after fixing the bug was already demonstrated in earlier parts of this lab report.
 The changes I made were replacing `index1` with `index2`, and `result.add(0,s)` with `result.add(s)`, which are explained in Student's Post and Follow-up.
 
-## 
+# Part 2
 
-
+In the second half of this quarter, I learned a lot of things that are going to be useful in the future. I learned to edit text in the command line using vim, which I don't think I will use as frequently, but it will be good to know. Writing bash scripts to test the java files was interesting and also debussing using jdb seems like it is going to be very useful in the future. Bash can be useful because it automates lengthy processes. I remember the TAs in this class wrote a bash script to augorade some of our skill demos. That's when I felt bash can be really useful. My favorite part was that I can debug from the command line using jdb, and I think it is goint to be very useful in running servers and when working on remote computers. Although this class was challenging, I feel like I am more acquainted with operating termianl commands and realized the power of it.
 
 
 
