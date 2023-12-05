@@ -35,13 +35,13 @@ When I fixed these bugs, the test could finally be passed.
 ### The file and directory structure.
 ```
 -lab7
--.gitignore
--lib
- -hamcrest-core-1.3.jar
- -junit-4.13.2.jar
--ListExamples.java
--ListExamplesTests.java
--test.sh
+ -.gitignore
+ -lib
+  -hamcrest-core-1.3.jar
+  -junit-4.13.2.jar
+ -ListExamples.java
+ -ListExamplesTests.java
+ -test.sh
 ```
 
 The contents before and after fixing the bug was already demonstrated in earlier parts of this lab report.
